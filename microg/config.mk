@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     additional_repos \
     AuroraStore \
+    AuroraServices \
     Phonesky \
     com.google.android.maps.xml \
     com.google.android.maps.jar \
@@ -12,10 +13,11 @@ PRODUCT_PACKAGES += \
     GsfProxy \
     MozillaNlpBackend \
     eSpeakTTS \
-    privapp-permissions-auroraservices.xml \
-    AuroraServices \
+    privapp-permissions-AuroraServices.xml \
     NominatimNlpBackend \
-    bromite-webview
-
-#Bromite 
-LOCAL_MODULE_TARGET_ARCH := arm64
+    Google_Stub \
+    privapp-permissions-com.google.android.projection.gearhead.xml \
+    default-permissions.xml \
+    AndroidAuto\
+    bromite-webview \
+    chrome-public \
