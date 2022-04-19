@@ -36,13 +36,13 @@ LOCAL_PREBUILT_JNI_LIBS_arm64 := @lib/arm64-v8a/libwebviewchromium.so
 
 include $(BUILD_PREBUILT)
 
-#include $(CLEAR_VARS)
-#LOCAL_OVERRIDES_PACKAGES := chrome_public
+include $(CLEAR_VARS)
+LOCAL_OVERRIDES_PACKAGES := chrome_public
 
-#LOCAL_MODULE := chrome-public
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_MULTILIB := both
-#LOCAL_CERTIFICATE := PRESIGNED
-#LOCAL_SRC_FILES := prebuilt/arm64/arm64_ChromePublic.apk
+LOCAL_MODULE := chrome-public
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MULTILIB := both
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_SRC_FILES := prebuilt/arm64/arm64_ChromePublic.apk
 
-#include $(BUILD_PREBUILT)
+include $(BUILD_PREBUILT)

@@ -1,1 +1,2 @@
 microg/bromite/prebuilt/arm64/SystemWebView.apk filter=lfs diff=lfs merge=lfs -text
+microg/bromite/prebuilt/arm64/arm64_ChromePublic.apk filter=lfs diff=lfs merge=lfs -text
